@@ -1,0 +1,25 @@
+Algoritmo numeros_mayor_menor
+	Definir n1,n2,n3,n4,n5 Como Entero
+	Escribir "escriba sus numeros"
+	leer n1
+	Leer n2
+	Leer n3
+	Leer n4
+	Leer n5
+	si n1>n2 y n1>n3 y n1>n4 y n1>n5 Entonces
+		Escribir "n1 es mayor que todos: " n1
+	Sino 
+		si n1<n2 y n1<n2 y n1<n3 y n1<n4 y n1<n5 Entonces
+			Escribir "n1 es menor que todos: " n1
+		FinSi
+	FinSi 
+	
+	si n1>n2 y n1>n3 y n1>n4 y n1>n5 Entonces
+		Escribir "n1 es mayor que todos: " n1
+	Sino 
+		si n1<n2 y n1<n2 y n1<n3 y n1<n4 y n1<n5 Entonces
+			Escribir "n1 es menor que todos: " n1
+		FinSi
+	FinSi 	
+	
+FinAlgoritmo
